@@ -1,0 +1,37 @@
+{
+  "name": "labubu-portal",
+  "version": "1.0.0",
+  "description": "Labubu资讯门户网站 - 最新资讯、收藏指南和社区讨论",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "http-server dist -p 3000"
+  },
+  "keywords": [
+    "labubu",
+    "art-toys",
+    "collectibles",
+    "popmart",
+    "vinyl-toys",
+    "news",
+    "collection-guide"
+  ],
+  "author": "Labubu Portal Team",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "pinia": "^2.1.6",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "http-server": "^14.1.1",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  }
+}

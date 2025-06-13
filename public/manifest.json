@@ -1,0 +1,138 @@
+{
+  "name": "Labubu Portal - 最新资讯、收藏指南和社区讨论",
+  "short_name": "Labubu Portal",
+  "description": "您获取最新Labubu资讯、收藏指南和社区讨论的终极目的地",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ed7420",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["lifestyle", "entertainment", "shopping"],
+  "icons": [
+    {
+      "src": "/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "最新资讯",
+      "short_name": "资讯",
+      "description": "查看最新的Labubu资讯",
+      "url": "/news",
+      "icons": [
+        {
+          "src": "/shortcut-news.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "收藏品",
+      "short_name": "收藏",
+      "description": "浏览Labubu收藏品",
+      "url": "/collection",
+      "icons": [
+        {
+          "src": "/shortcut-collection.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "社区",
+      "short_name": "社区",
+      "description": "参与社区讨论",
+      "url": "/community",
+      "icons": [
+        {
+          "src": "/shortcut-community.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "购买指南",
+      "short_name": "指南",
+      "description": "查看购买指南",
+      "url": "/guide",
+      "icons": [
+        {
+          "src": "/shortcut-guide.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Labubu Portal桌面版截图"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Labubu Portal移动版截图"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
