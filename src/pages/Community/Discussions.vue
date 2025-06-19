@@ -235,7 +235,6 @@ import { useRoute, useRouter } from 'vue-router'
 import { useUIStore } from '../../stores/ui'
 import { debounce } from '../../utils/helpers'
 import DiscussionItem from '../../components/content/DiscussionItem.vue'
-import NewTopicModal from '../../components/modals/NewTopicModal.vue'
 import Pagination from '../../components/ui/Pagination.vue'
 
 export default {
