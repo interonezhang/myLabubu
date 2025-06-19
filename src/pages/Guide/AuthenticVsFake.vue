@@ -322,11 +322,7 @@
 
           <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
             <div class="flex items-start space-x-4">
-              <img
-                src="/expert-avatar.jpg"
-                alt="鉴定专家"
-                class="w-16 h-16 rounded-full"
-              />
+              
               <div class="flex-1">
                 <div class="flex items-center space-x-2 mb-2">
                   <h3 class="font-semibold text-neutral-900">李明华</h3>
