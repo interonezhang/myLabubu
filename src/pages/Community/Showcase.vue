@@ -231,7 +231,6 @@ import { useRoute, useRouter } from 'vue-router'
 import { useUIStore } from '../../stores/ui'
 import { debounce } from '../../utils/helpers'
 import ShowcaseCard from '../../components/content/ShowcaseCard.vue'
-import UploadShowcaseModal from '../../components/modals/UploadShowcaseModal.vue'
 import Pagination from '../../components/ui/Pagination.vue'
 
 export default {
