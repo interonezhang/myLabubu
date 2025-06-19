@@ -252,7 +252,6 @@ import { useRoute, useRouter } from 'vue-router'
 import { useUIStore } from '../../stores/ui'
 import { debounce, formatDate } from '../../utils/helpers'
 import EventCard from '../../components/content/EventCard.vue'
-import CreateEventModal from '../../components/modals/CreateEventModal.vue'
 import Pagination from '../../components/ui/Pagination.vue'
 
 export default {
